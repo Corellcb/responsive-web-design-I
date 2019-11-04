@@ -256,6 +256,11 @@ footer p {
 	margin: 30px 0;
 }
 
+@media (max-width: 800px) {
+	 .services {
+		 margin: 20px;
+	 }
+}
 
 /* Main Content */
 
@@ -290,6 +295,19 @@ footer p {
 	margin-top: 20px;
 }
 
+@media (max-width: 500px) {
+	.second-main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 90%;
+	}
+
+	.second-main div {
+		width: 95%;
+	}
+}
+
 /* Facts About Our Services */
 
 .facts {
@@ -321,4 +339,19 @@ footer p {
 	display: list-item;
 	list-style-type: disc;
 	margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+	.facts img {
+		display: none;
+	}
+
+	.facts {
+		width: 90%;
+	}
+
+	.facts div {
+		width: 90%;
+
+	}
 }
